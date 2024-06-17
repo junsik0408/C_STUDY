@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 #define PI 3.1415926535
-#define STR "¿øÀÇ ¸éÀûÀ» °è»êÇß½À´Ï´Ù.\n"
-#define END_MSG printf("ÇÁ·Ï·¥ÀÌ Á¾·áµÇ¾ú½À´Ï´Ù.\n\n")
+#define STR "ì›ì˜ ë©´ì ì„ ê³„ì‚°í–ˆìŠµë‹ˆë‹¤.\n"
+#define END_MSG printf("í”„ë¡œê·¸ëž¨ì´ ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.\n\n")
 
 void main()
 {
-	printf("¹ÝÁö¸§ÀÌ 10ÀÎ ¿øÀÇ ¸éÀûÀº ==> %10.5f \n", 10*10*PI);
+	printf("ë°˜ì§€ë¦„ì´ 10ì¸ ì›ì˜ ë©´ì ì€ ==> %10.5f \n", 10*10*PI);
 
 	printf(STR); 
 
